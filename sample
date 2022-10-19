@@ -1,1 +1,7 @@
+ <div class='topbar'>
+            <h1 style={{ paddingTop: "15px", paddingLeft: "30px" }}>mart<span style={{ color: "white" }}>fury</span></h1>
+            <div class="drpdwn" style={{ marginTop: "-57px", paddingLeft: "500px" }}>
+                <Dropdown value={selectedCity1} options={cities} onChange={onCityChange} optionLabel="name" placeholder="All" />
+                <span><InputText class="inputcls" value={value1} onChange={(e) => setValue1(e.target.value)} /></span>
+                <span><Button label="Search" aria-label="Submit" /></span>
 
