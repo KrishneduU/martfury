@@ -1,0 +1,101 @@
+/* .dropdown-demo .p-dropdown {
+    width: 24rem !important;
+} */
+
+/* .dropdown-demo .country-item-value img.flag {
+    width: 58px !important;
+} */
+.p-inputtext .citycls{
+    height:40px !important;
+    width:100px !important;
+    text-indent: 10px !important;
+   
+
+}
+.p-dropdown{
+    border-radius: 0px;
+}
+/* .p-dropdown-label{
+    width:80px !important;
+}
+.p-dropdown.p-component.p-inputwrapper {
+    margin: 0px 0px 0px 10px;
+} */
+
+.inputcls{
+    width:50%;
+    height: 50px;
+}
+
+.p-inputtext:enabled:hover{
+    border-color: #fff !important;
+    box-shadow: #fff !important;
+}
+.p-dropdown:not(.p-disabled):hover{
+    border-color: #fff !important;
+    box-shadow: #fff !important;
+}
+
+.citycls {
+    
+    border: none !important;
+    transition: none !important;
+    border-radius: none !important;
+  
+}
+/* .p-dropdown:not(.p-disabled):hover {
+    border-color: none !important;
+} */
+.p-inputtext {
+    border: none !important;
+    transition: none !important;
+    border-radius: 0px !important;
+}
+.p-button {
+    background-color: black !important;
+    background:  black !important;
+    border-radius: 0px;
+    transition:none !important;
+}
+
+.p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {
+    background: none !important; 
+    color: #ffffff;
+    border-color:none !important; 
+}
+.p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {
+    background: black !important; 
+    color: #ffffff;
+    border-color:black !important; 
+}
+.topIconBadge{
+    position: absolute;
+    top: 88px;
+    right: 17px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width:15px;
+    height: 15px;
+    display:flex;
+    align-items:center ;
+    justify-content:center;
+    font-size:10px;
+}
+
+.topbarIconContainer{
+    position: relative;
+    margin-right: 5px;
+}
+.topbarWrapper{
+    height: 100%;
+    padding:0px 20px;
+    display:flex;
+    /* flex-direction:row; */
+    align-items: center;
+    justify-content:space-between ;
+}
+.topRight{
+    display: flex;
+    align-items:center;
+}
